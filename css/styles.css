@@ -39,7 +39,6 @@ body {
     letter-spacing: 0.03em;
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
-
 }
 
 .container {
@@ -47,7 +46,6 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-
 }
 
 .page-header {
@@ -146,7 +144,8 @@ a {
 }
 
 .header-contact {
-    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -161,6 +160,8 @@ a {
 }
 
 .header-mail {
+    display: flex;
+    align-items: center;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -196,8 +197,6 @@ a {
     padding-top: 200px;
     padding-bottom: 200px;
     background: var(--bg-color);
-
-
 }
 
 .hero-title {
@@ -265,7 +264,6 @@ a {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
     background: var(--active-color);
 }
 
@@ -343,7 +341,6 @@ a {
     text-align: center;
     margin-bottom: 50px;
     color: var(--secondary-text-color);
-
 }
 
 .work-list {
@@ -375,7 +372,6 @@ a {
     color: var(--secondary-text-color);
     text-align: center;
     margin-bottom: 10px;
-
 }
 
 .team-prof {
@@ -426,7 +422,7 @@ a {
     border: none;
     width: 44px;
     height: 44px;
-    cursor: pointer;
+    border-radius: 50px;
     background-color: var(--primary-white-color);
     color: var(--clients-logos-bg);
     display: flex;
@@ -438,7 +434,6 @@ a {
 .social-link:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
-    border-radius: 50px;
 }
 
 .icon-socials:not(:last-child) {
@@ -449,8 +444,6 @@ a {
 
 .clients {
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .icon-client {
@@ -508,7 +501,6 @@ a {
     display: flex;
     margin-bottom: 50px;
     list-style: none;
-
 }
 
 .pf-work-cart {
@@ -548,26 +540,17 @@ a {
 
 .foot {
     background: var(--bg-color);
-    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .general-container {
     display: flex;
-
-}
-
-.foot-container {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    width: 231px;
+    align-items: baseline;
 }
 
 .foot-socials {
-    display: block;
-    padding-top: 72px;
-    margin-left: 70px;
-    width: 206px;
-
+   margin-left: 70px;
 }
 
 .f-social-link {
@@ -582,14 +565,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .f-social-link:hover,
 .f-social-link:focus {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
-    border-radius: 50px;
 }
 
 .foot-text {
@@ -599,11 +580,8 @@ a {
     line-height: 1.14;
     margin-bottom: 20px;
     text-transform: uppercase;
-    align-items: baseline;
     color: var(--primary-white-color);
-
 }
-
 
 .foot a {
     text-decoration: none;
@@ -618,7 +596,6 @@ a {
     letter-spacing: 0.03em;
     color: var(--primary-white-color);
     padding: 0;
-
 }
 
 .foot-adress {
