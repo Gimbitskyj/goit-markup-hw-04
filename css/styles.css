@@ -569,7 +569,6 @@ a {
 .f-social-link:hover,
 .f-social-link:focus {
     background-color: var(--accent-color);
-    color: var(--primary-white-color);
 }
 
 .foot-text {
